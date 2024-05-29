@@ -4,7 +4,7 @@ You are given an array nums, where each number in the array appears either once 
 Return the bitwise XOR of all the numbers that appear twice in the array, or 0 if no number appears twice.
 */
 
-#define LEN(b) sizeof(buffer)/sizeof(buffer[0])
+#define LEN(b) sizeof(b)/sizeof(b[0])
 
 int duplicateNumbersXOR(int* nums, int numsSize) {
     int output = 0;
